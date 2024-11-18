@@ -29,10 +29,14 @@ WHERE
 This will give a result like:
 ```
 +--------------------+--------------+
-| boundary_type      | name         |
+| type               | name         |
 +--------------------+--------------+
+| Parish             | Effingham    |
+| Parish             | Wotton       |
+| Parish             | Abinger      |
 | National Landscape | Surrey Hills |
 +--------------------+--------------+
+4 rows in set (0.08 sec)
 ```
 
 # Data Sources
