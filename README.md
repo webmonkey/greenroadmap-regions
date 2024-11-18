@@ -5,8 +5,8 @@ so, for example, you can take a known geometry and find out which boundaries it 
 
 # Populating data
 
-Use `create-spatial-tables.sql` to create the schema
-Run the appropriate `*-sql.php` scripts to generate the MySQL inserts to populate them
+ - Use `create-spatial-tables.sql` to create the schema
+ - Run the appropriate `*-sql.php` scripts to generate the MySQL inserts to populate them
 
 # Querying data
 
@@ -34,3 +34,13 @@ This will give a result like:
 | National Landscape | Surrey Hills |
 +--------------------+--------------+
 ```
+
+# Data Sources
+
+| Name | Location |
+| --- | --- |
+| Counties/UAs | https://geoportal.statistics.gov.uk/datasets/941217c8d0ea43fabdad50d9b39234f5_0/explore |
+| National Parks | https://geoportal.statistics.gov.uk/datasets/a50af95256b34942b391c4f7b29739ff_0/explore |
+| National Landscapes | https://naturalengland-defra.opendata.arcgis.com/datasets/6f2ad07d91304ad79cdecd52489d5046_0/explore |
+| Parishes | https://geoportal.statistics.gov.uk/datasets/b933971ba4b9463fb7c2645cbae15966_0/explore |
+
