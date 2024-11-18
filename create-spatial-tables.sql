@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS uk_region_boundaries;
 CREATE TABLE uk_region_boundaries (
-    boundary_type ENUM("County", "National Park", "National Landscape"),
+    boundary_type ENUM("County", "National Park", "National Landscape","Parish"),
     name VARCHAR(100) NOT NULL,
     boundary GEOMETRY NOT NULL SRID 4326,
 
