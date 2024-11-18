@@ -41,10 +41,10 @@ This will give a result like:
 
 # Data Sources
 
-| Name | Location |
-| --- | --- |
-| Counties/UAs | https://geoportal.statistics.gov.uk/datasets/941217c8d0ea43fabdad50d9b39234f5_0/explore |
+| Name | Location | Notes |
+| --- | --- | --- |
+| Counties/UAs | https://geoportal.statistics.gov.uk/datasets/941217c8d0ea43fabdad50d9b39234f5_0/explore | Doesn't allow downloading at the moment - hangs on "pending" |
 | National Parks | https://geoportal.statistics.gov.uk/datasets/a50af95256b34942b391c4f7b29739ff_0/explore |
-| National Landscapes | https://naturalengland-defra.opendata.arcgis.com/datasets/6f2ad07d91304ad79cdecd52489d5046_0/explore |
-| Parishes | https://geoportal.statistics.gov.uk/datasets/b933971ba4b9463fb7c2645cbae15966_0/explore |
+| National Landscapes | https://naturalengland-defra.opendata.arcgis.com/datasets/6f2ad07d91304ad79cdecd52489d5046_0/explore | Has a reported issues with holes in polygons |
+| Parishes | https://geoportal.statistics.gov.uk/datasets/b933971ba4b9463fb7c2645cbae15966_0/explore | The dataset is >500MB |
 
