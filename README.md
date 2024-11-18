@@ -14,7 +14,7 @@ You can query it using geometries like this:
 
 ```sql
 SELECT
-    boundary_type,
+    type,
     name
 FROM
     uk_region_boundaries
